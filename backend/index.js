@@ -5,8 +5,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const Patients = require("./schemas/Patient");
 
-const mongoUri =
-  "mongodb+srv://admin:admin@cluster0.fd00zor.mongodb.net/healthharbour?retryWrites=true&w=majority";
+const mongoUri = "YOUR_API_KEY";
 mongoose.connect(mongoUri);
 
 const Doctor = require("./schemas/Doctor");
@@ -17,8 +16,8 @@ const app = express();
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
-    user: "713solangelo713@gmail.com",
-    pass: "kixeopbtvllyxrfl",
+    user: "EMAIL",
+    pass: "EMAIL PASSWORD",
   },
 });
 
@@ -95,7 +94,7 @@ app.post("/send-email/:docid", async (req, res) => {
   const docid = req.params.docid;
 
   const mailOptionsdoc = {
-    from: "713solangelo713@gmail.com", // Replace with your Gmail email address
+    from: "YOUR EMAIL", // Replace with your Gmail email address
     to: pemail, // patient
 
     subject: "Your Appointment has been acknowledged",
@@ -115,7 +114,7 @@ app.post("/send-email/:docid", async (req, res) => {
     CMR Hospital`,
   };
   const mailOptionspat = {
-    from: "713solangelo713@gmail.com", // Replace with your Gmail email address
+    from: "YOUR EMAIL", // Replace with your Gmail email address
     to: demail, // docdetails
     subject: `A patient ${username} has scheduled an appointment with our medical practice`,
     text: `Dear ${docname},
