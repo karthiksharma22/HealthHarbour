@@ -8,6 +8,7 @@ Health Harbour is a comprehensive real-time hospital management application desi
 - **Email Updates**: Automatic email notifications for appointment reminders and updates.
 - **Report Analysis**: Integration for analyzing and visualizing patient reports, assisting doctors with decision-making.
 - **Intuitive Dashboard**: A user-friendly dashboard for both patients and healthcare providers to track appointments, reports, and more.
+- **Patient Document Analysis**: Flask (Python)
 
 ## Technologies Used
 
@@ -64,4 +65,3 @@ Here’s the full installation process formatted in the correct GitHub README st
      ```
 
 7. Visit `http://localhost:3000` in your browser to access the application.
-```
