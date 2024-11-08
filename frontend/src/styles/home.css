@@ -1,0 +1,45 @@
+.main {
+  width: 800px;
+}
+
+.typing-text {
+  display: inline-block;
+  overflow: hidden;
+  border-right: 2px solid #000;
+  white-space: nowrap;
+  margin: 0;
+  font-size: 24px;
+  animation: typing 2s steps(40) infinite;
+}
+
+.block {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 190px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.img {
+  height: 300px;
+  width: 300px;
+  margin-top: -80px;
+  margin-left: 60px;
+  /* mix-blend-mode: color-burn; */
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 20%;
+  }
+}

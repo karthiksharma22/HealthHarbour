@@ -1,0 +1,36 @@
+.doccontainer {
+  border-radius: 8px;
+  height: 475px;
+  width: 265px;
+  background-color: white;
+}
+.doccontainer img {
+  height: 200px;
+  width: 260px;
+  object-fit: cover;
+}
+
+.docbody {
+  margin: 0px 20px;
+  margin-top: -15px;
+}
+
+.docbody h2 {
+  font-size: 26px;
+}
+
+.docbody p {
+  font-size: 15px;
+  margin: 7px 0px;
+  color: rgb(66, 65, 65);
+}
+.btnnnn {
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  background-color: #0877b0;
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+}

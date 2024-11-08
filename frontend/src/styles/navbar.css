@@ -1,0 +1,60 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  border-radius: 100px;
+  height: 57px;
+  width: 57px;
+  margin-top: 10px;
+}
+
+.logos {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 80px;
+  align-items: center;
+  justify-content: center;
+  gap: 45px;
+  margin-top: 20px;
+}
+
+.active {
+  color: rgb(40, 114, 8);
+  border-radius: 50px;
+}
+
+.link {
+  color: #083645;
+}
+
+.logout {
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+.icon-container {
+  position: relative;
+  cursor: pointer;
+}
+
+.icon-text {
+  position: absolute;
+  font-size: 13px;
+  text-align: center;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.icon-container:hover .icon-text {
+  opacity: 1;
+  visibility: visible;
+}

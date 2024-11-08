@@ -1,0 +1,80 @@
+.navbar {
+  width: 100px;
+  height: 99.9vh;
+  background-color: whitesmoke;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-radius: 0px 25px 25px 0px;
+}
+
+.user {
+  width: 350px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #055570;
+}
+
+.apps {
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.appts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+  padding: 0px 14px;
+  background-color: rgb(236, 102, 25);
+  color: white;
+  border-radius: 90px;
+  font-size: 14px;
+}
+
+.appts img {
+  height: 42px;
+  width: 42px;
+  border-radius: 60px;
+  object-fit: cover;
+  margin-right: 8px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(172, 171, 171);
+  border-radius: 5px;
+  gap: 0px;
+  margin: 0px 30px;
+  padding: 20px;
+  margin-top: 40px;
+}
+.info img {
+  border-radius: 50px;
+  height: 80px;
+  width: 80px;
+}
+
+.home {
+  display: flex;
+  /* gap: 40px; */
+  background-color: whitesmoke;
+  align-items: center;
+}
+
+.section {
+  width: 67vw;
+  height: 150vh;
+  background-color: #c6d5da;
+  margin-left: 100px;
+}

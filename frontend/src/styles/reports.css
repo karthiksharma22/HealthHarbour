@@ -1,0 +1,31 @@
+.container2 {
+  margin: 50px 50px;
+  display: flex;
+  width: 800px;
+  flex-direction: column;
+}
+
+.files {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.files input {
+  width: 200px;
+  background-color: #618b6800;
+  color: rgb(46, 46, 46);
+  border: none;
+  border-radius: 6px;
+  padding: 4px 7px;
+}
+
+.files button {
+  width: 100px;
+  background-color: #618b68;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 4px 7px;
+  cursor: pointer;
+}
